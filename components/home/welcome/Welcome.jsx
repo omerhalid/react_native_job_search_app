@@ -20,6 +20,18 @@ const Welcome = () => {
         <Text style={styles.userName}>Hello Ömer </Text>
         <Text style={styles.welcomeMessage}>Find your perfect job </Text>
       </View>
+
+      <View style={styles.searchContainer}>
+        <View style={styles.searchWrapper}>
+          <TextInput
+            style={styles.searchInput}
+            value=""
+            onChange={() => {}}
+            placeholder="Search" //there is an issue here also in fonts? and images
+          />
+        </View>
+
+      </View>
     </View>
   )
 }
